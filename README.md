@@ -22,13 +22,13 @@ A retro-themed implementation of Conway's Game of Life with smooth animations an
 
 ## Try It Out
 
-Visit the live demo: [Game of Life - Retro Edition](https://[your-username].github.io/game-of-life/)
+Visit the live demo: [Game of Life - Retro Edition](https://ShakeelKhalid1913.github.io/game-of-life/)
 
 ## Local Development
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/game-of-life.git
+git clone https://github.com/ShakeelKhalid1913/game-of-life.git
 ```
 
 2. Open `index.html` in your browser to run the game locally.
