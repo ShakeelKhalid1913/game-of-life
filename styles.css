@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ff00;
+}
+
+.container {
+    background-color: #000000;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+    border: 2px solid #00ff00;
+}
+
+h1 {
+    text-align: center;
+    color: #00ff00;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.controls {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #00ff00;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'VT323', monospace;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000000;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+#clearBtn {
+    border-color: #ff0000;
+    color: #ff0000;
+}
+
+#clearBtn:hover {
+    background-color: #ff0000;
+    color: #000000;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+#randomBtn {
+    border-color: #00ffff;
+    color: #00ffff;
+}
+
+#randomBtn:hover {
+    background-color: #00ffff;
+    color: #000000;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.speed-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#speed {
+    width: 150px;
+    accent-color: #00ff00;
+}
+
+#gameCanvas {
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000000;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.1);
+}
